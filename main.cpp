@@ -33,7 +33,7 @@ void section8();
 int main()
 {
     intro();
-	
+    //Uncomment these as you complete various sections.
     section1();
     section2();
     section3();
@@ -57,7 +57,7 @@ void intro()
     cout << "* most of the sections are commented off.  Uncomment each section as you";
     cout << endl;
     cout << "* get more and more to work : Good Luck!" << endl;
-    cout << "************************************************************************"<< endl << endl;
+    cout << "************************************************************************" << endl << endl;
 }
 
 void section1()
@@ -66,7 +66,7 @@ void section1()
     cout << "Basic creation and printing" << endl << endl;
     FractionalComplex a;
     FractionalComplex b(5, 10);
-    FractionalComplex c(1,2,3,4);
+    FractionalComplex c(1, 2, 3, 4);
     a.printme();
     b.printme();
     c.printme();
@@ -251,8 +251,6 @@ void section7()
     cout << endl << "Test #3 " << endl;
     cout << "b = " << b << endl;
     cout << "b * 10 = " << b * 10 << endl;
-
-
 }
 
 void section8()
