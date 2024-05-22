@@ -23,25 +23,25 @@ using namespace std;
 void intro();
 void section1();
 void section2();
-/*void section3();
+void section3();
 void section4();
 void section5();
 void section6();
 void section7();
-void section8();*/
+void section8();
 
 int main()
 {
     intro();
-	//Uncomment these as you complete various sections.
+	
     section1();
     section2();
-    //section3();
-    //section4();
-    //section5();
-    //section6();
-    //section7();
-    //section8();
+    section3();
+    section4();
+    section5();
+    section6();
+    section7();
+    section8();
 }
 
 
@@ -92,7 +92,7 @@ void section2()
 
 }
 
-/*void section3()
+void section3()
 {
 
     cout << endl << endl;
@@ -276,4 +276,4 @@ void section8()
     cout << "a = " << ++b << " This should be one bigger" << endl;
     cout << "a = " << ++b << " This should be one bigger" << endl;
     cout << "a = " << b   << " This should match above" << endl;
-}*/
+}
